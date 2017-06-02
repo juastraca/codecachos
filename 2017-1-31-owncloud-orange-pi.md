@@ -1,5 +1,6 @@
 ---
 layout: post
+published:false
 title: Montando Owncloud en mi Orange Pi
 excerpt_separator: <!--more-->
 ---
