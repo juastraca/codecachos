@@ -47,4 +47,4 @@ Luego también he visto otra solución en StackOverFlow que parece interesante..
     }
     {% endraw %}
 
-{% highlight java %}
+{% endhighlight %}
