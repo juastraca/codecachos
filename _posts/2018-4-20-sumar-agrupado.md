@@ -9,6 +9,7 @@ excerpt_separator: <!--more-->
 LLevaba tiempo detrás de esto, y al final lo he conseguido :-)
 
 {% highlight java %}
+
 	public Map<String, Double> getTotalsFees() {
 		return parent.getOpMercado().getOmEconomicoFees().stream().collect(
 				Collectors.groupingBy(f -> f.getId().getIndCobropago().name(),
@@ -20,7 +21,9 @@ LLevaba tiempo detrás de esto, y al final lo he conseguido :-)
 
 Luego también he visto otra solución en StackOverFlow que parece interesante....
 {% highlight java %}
+
 {% raw %}
+
  public static void main(final String[] args) {
         final Map<Integer, Map<String, Double>> tmp = new HashMap<>();
         tmp.put(1, new HashMap<String, Double>() {{
