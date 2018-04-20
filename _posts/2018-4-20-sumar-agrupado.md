@@ -26,16 +26,16 @@ Luego también he visto otra solución en StackOverFlow que parece interesante..
 
  public static void main(final String[] args) {
         final Map<Integer, Map<String, Double>> tmp = new HashMap<>();
-        tmp.put(1, new HashMap<String, Double>() {{
+        tmp.put(1, new HashMap<String, Double>() { {
             put("1", 3.45);
             put("2", 1.23);
             put("3", 0.98);
         }});
-        tmp.put(2, new HashMap<String, Double>() {{
+        tmp.put(2, new HashMap<String, Double>() { {
             put("1", 1.00);
             put("2", 2.00);
             put("3", 3.00);
-        }});
+        } });
 
         System.out.println(tmp.entrySet().stream()
                 .collect(
