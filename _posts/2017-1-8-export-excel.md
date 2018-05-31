@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Exportación a excel con Lamdas en dos patadas
+categories: lambdas
 excerpt_separator: <!--more-->
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lambda para sumar agrupado
+categories: lambdas
 excerpt_separator: <!--more-->
 ---
 
