@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cliente VPN Windows
-categories: system network
+categories: [system, network]
 excerpt_separator: <!--more-->
 ---
 Particularidades de conexion en windows a OpenVPN en una red con seguridad paranoica.
