@@ -1,12 +1,15 @@
 ---
 layout: post
 title: Filtrar resultados por un atributo de una entidad hija
-categories: {JPA, CriteriaBuilder}
-excerpt_separator: <!--more-->
+categories: [JPA, CriteriaBuilder]
+
 ---
 
-En esta ocasión, vamos a filtrar registros que tengan una determinada cartera de clientes, por ejemplo. Cada agente tiene varias carteras
-pero a nosotros nos interesan sólo aquellos que tengan una determinada cartera.
+
+
+
+En esta ocasiÃ³n, vamos a filtrar registros que tengan una determinada cartera de clientes, por ejemplo. Cada agente tiene varias carteras
+pero a nosotros nos interesan sÃ³lo aquellos que tengan una determinada cartera.
 
 Para ello lo primero que hacemos es declarar la lista de carteras:
 
